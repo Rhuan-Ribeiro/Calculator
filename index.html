@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/script.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <input type="text" class="display" aria-label="Visor da calculadora" inputmode="decimal">
+
+        <button class="gray-btn" onclick="clearDisplay()" aria-label="Limpar">AC</button>
+        <button class="gray-btn" onclick="invertSign()" aria-label="Inverter sinal">+/-</button>
+        <button class="blue-btn" onclick="addCharacter('/')" aria-label="Dividir">/</button>
+        <button class="blue-btn" onclick="addCharacter('*')" aria-label="Multiplicar">*</button>
+
+        <button class="black-btn" onclick="addCharacter('7')" aria-label="Sete">7</button>
+        <button class="black-btn" onclick="addCharacter('8')" aria-label="Oito">8</button>
+        <button class="black-btn" onclick="addCharacter('9')" aria-label="Nove">9</button>
+        <button class="blue-btn" onclick="addCharacter('-')" aria-label="Subtrair">-</button>
+
+        <button class="black-btn" onclick="addCharacter('4')" aria-label="Quatro">4</button>
+        <button class="black-btn" onclick="addCharacter('5')" aria-label="Cinco">5</button>
+        <button class="black-btn" onclick="addCharacter('6')" aria-label="Seis">6</button>
+        <button class="blue-btn" onclick="addCharacter('+')" aria-label="Adicionar">+</button>
+
+        <button class="black-btn" onclick="addCharacter('1')" aria-label="Um">1</button>
+        <button class="black-btn" onclick="addCharacter('2')" aria-label="Dois">2</button>
+        <button class="black-btn" onclick="addCharacter('3')" aria-label="Três">3</button>
+
+        <button class="equal" onclick="calculate()" aria-label="Calcular">=</button>
+
+        <button class="black-btn zero" onclick="addCharacter('0')" aria-label="Zero">0</button>
+        <button class="black-btn" onclick="addCharacter('.')" aria-label="Ponto decimal">.</button>
+    </main>
+</body>
+</html>

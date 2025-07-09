@@ -30,10 +30,6 @@ Este projeto foi feito como um exercício prático para treinar a construção d
 
 ---
 
-## 🚀 Acesse o projeto
-
-👉 [Clique aqui para acessar a calculadora online](https://rhuan-ribeiro.github.io/Calculator/)
-
 ## 🙏 Créditos
 
 Este projeto foi desenvolvido seguindo um exercício proposto por **Rodolfo Mori** em seu canal no YouTube, [DevClub | Programação](https://www.youtube.com/@canaldevclub).  
